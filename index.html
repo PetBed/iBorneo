@@ -1,0 +1,384 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Company incorporation, company secretarial services, Sabah trading licences and MBRS submissions in Kota Kinabalu, Sabah.">
+    <meta name="keywords" content="Company Secretary Sabah, Company Secretary Kota Kinabalu, SSM Setup Sabah, Incorporate Sdn Bhd Kota Kinabalu, Local Trading License DBKK, iBorneo Corporate Services">
+    <meta name="theme-color" content="#f8fafc">
+    <title>iBorneo Corporate Services PLT | Company Setup &amp; Secretary Sabah</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <script type="module" src="app.mjs"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Skip to content</a>
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="iBorneo home"><span>iBorneo</span><small>Corporate Services PLT</small></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Open navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a class="nav-estimator" href="#estimator">Setup Estimator</a>
+        <a href="#why-us">Why iBorneo</a>
+        <a href="#faq">FAQ</a>
+        <a class="nav-contact" href="#contact">Contact Us</a>
+        <a class="nav-portal" href="#contact">Client Portal</a>
+      </nav>
+    </header>
+
+    <main id="main-content">
+      <section class="hero dotted-surface" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="hero-location"><span aria-hidden="true"></span>Kota Kinabalu, Sabah <b>·</b> SSM practising-certificate holders</p>
+          <h1 id="hero-title">Company setup<br><span>in Sabah</span></h1>
+          <p class="hero-description">Our qualified company secretaries support SSM setup, digital document management, local DBKK trading-licence applications, and statutory compliance in Sabah.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#contact">Start Incorporation <span aria-hidden="true">→</span></a>
+            <a class="button button-outline" href="#estimator">Estimate Setup Cost</a>
+          </div>
+          <p class="hero-note">Based at Inanam Capital, Kota Kinabalu.</p>
+        </div>
+
+        <aside class="portal-preview" aria-label="Illustrative preview of the iBorneo digital document portal">
+          <div class="portal-topline">
+            <div class="portal-mark" aria-hidden="true">IB</div>
+            <div>
+              <strong>iBorneo Cloud Portal</strong>
+              <span>Digital records and filings</span>
+            </div>
+            <span class="preview-label">Illustrative preview</span>
+          </div>
+          <div class="portal-document">
+            <span class="document-mark" aria-hidden="true">PDF</span>
+            <span><strong>SSM certificates</strong><small>Company documents</small></span>
+            <span class="document-action">View</span>
+          </div>
+          <div class="portal-document">
+            <span class="document-mark document-mark-teal" aria-hidden="true">AR</span>
+            <span><strong>Annual return records</strong><small>MBRS filing documents</small></span>
+            <span class="document-action">Files</span>
+          </div>
+          <div class="portal-document">
+            <span class="document-mark" aria-hidden="true">DBKK</span>
+            <span><strong>Local licence documents</strong><small>Kota Kinabalu submissions</small></span>
+            <span class="document-action">View</span>
+          </div>
+          <a class="portal-link" href="#contact">Ask about digital secretarial services <span aria-hidden="true">→</span></a>
+        </aside>
+      </section>
+
+      <section class="trust-strip" aria-label="iBorneo service details">
+        <div><strong>24/7</strong><span>Digital document access</span></div>
+        <div><strong>Sabah</strong><span>Local DBKK support</span></div>
+        <div><strong>2016</strong><span>Companies Act compliance</span></div>
+      </section>
+
+      <section class="estimator-section section-wrap" id="estimator" aria-labelledby="estimator-title">
+        <div class="section-heading centered-heading">
+          <h2 id="estimator-title">Company Setup Fee Estimator</h2>
+          <p>Choose an entity type to see the documented fast-track setup estimate.</p>
+        </div>
+        <div class="estimator-panel">
+          <div class="estimator-controls">
+            <fieldset>
+              <legend>Select entity structure</legend>
+              <div class="entity-options">
+                <label class="entity-option">
+                  <input type="radio" name="entity" value="sdn-bhd" checked>
+                  <span><strong>Sdn Bhd</strong><small>Private limited</small></span>
+                </label>
+                <label class="entity-option">
+                  <input type="radio" name="entity" value="llp-plt">
+                  <span><strong>LLP / PLT</strong><small>Limited liability</small></span>
+                </label>
+                <label class="entity-option">
+                  <input type="radio" name="entity" value="sole-proprietor">
+                  <span><strong>Sole proprietor</strong><small>Partnership / enterprise</small></span>
+                </label>
+              </div>
+            </fieldset>
+            <p class="included-heading">Included in the estimate</p>
+            <ul class="included-list" id="estimate-included">
+              <li>Official SSM registration fee</li>
+              <li>Name search</li>
+              <li>Statutory secretarial book creation</li>
+            </ul>
+            <p class="estimate-error" id="estimate-error" role="status" hidden></p>
+          </div>
+          <aside class="estimate-result" aria-live="polite">
+            <p class="result-label">Estimated total</p>
+            <p class="result-amount" id="estimate-amount">RM 2,000</p>
+            <p class="result-entity" id="estimate-entity">Sdn Bhd · Fast-track</p>
+            <p class="estimate-disclaimer">Additional services may affect the final scope and price. Contact iBorneo for a tailored quotation.</p>
+            <a class="button button-primary" href="#contact">Ask about this setup</a>
+          </aside>
+        </div>
+        <p class="estimate-source">Estimates are based on the setup information provided by iBorneo. Confirm current fees and scope with the office.</p>
+      </section>
+
+      <section class="about-section section-wrap" id="about" aria-labelledby="about-title">
+        <div class="about-panel">
+          <h2>Business support across Sabah</h2>
+          <p>We are a corporate secretarial firm based in Kota Kinabalu. Our work combines company compliance under the Companies Act 2016 with digital document management.</p>
+          <div class="about-credential">
+            <strong>SSM practising-certificate holders</strong>
+            <span>Qualified company secretaries recognised by SSM Malaysia.</span>
+          </div>
+          <div class="about-credential">
+            <strong>Local council and DBKK compliance</strong>
+            <span>Support with local municipal trading licences and Sabah requirements.</span>
+          </div>
+        </div>
+        <div class="about-copy">
+          <h2 id="about-title">Your strategic partner in business formation</h2>
+          <p>At iBorneo Corporate Services PLT, we handle company incorporation and secretarial compliance so business owners can focus on running their business.</p>
+          <p>From our office at Inanam Capital, Kota Kinabalu, we assist Sabah businesses, West Malaysian companies expanding locally, and foreign investors seeking a local business-services contact.</p>
+          <div class="about-facts">
+            <div><strong>Full SSM lifecycle</strong><span>From incorporation to annual return filings and MBRS submissions.</span></div>
+            <div><strong>Digital records</strong><span>Cloud access for statutory documents, resolutions, and certificates.</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services-section section-wrap" id="services" aria-labelledby="services-title">
+        <div class="section-heading centered-heading">
+          <h2 id="services-title">Comprehensive secretarial solutions</h2>
+          <p>Company setup, statutory filings, local licensing and support as your requirements change.</p>
+        </div>
+        <div class="service-filters" role="group" aria-label="Filter services">
+          <button type="button" data-filter="all" aria-pressed="true">All Services</button>
+          <button type="button" data-filter="incorporation" aria-pressed="false">Incorporation &amp; Setup</button>
+          <button type="button" data-filter="compliance" aria-pressed="false">Compliance &amp; Filings</button>
+          <button type="button" data-filter="licensing-closure" aria-pressed="false">Licensing &amp; Closure</button>
+        </div>
+        <div class="service-grid" id="service-grid">
+          <article class="service-card service-featured" data-category="compliance">
+            <figure class="service-image">
+              <img src="assets/digital-secretarial.jpg" alt="Representative stock photo of a woman reviewing a document." loading="lazy">
+              <figcaption>Representative photo · <a href="https://unsplash.com/photos/a-woman-in-a-suit-looking-at-a-document-6v6MztXBeIA" target="_blank" rel="noreferrer">GN Group / Unsplash</a></figcaption>
+            </figure>
+            <div class="service-body">
+              <p class="service-label">Digital services</p>
+              <h3>Digital Secretarial Service</h3>
+              <p>Access statutory documents through a secure cloud-based secretarial portal, with digital document storage and access at any time.</p>
+              <ul><li>24/7 portal access</li><li>Digital records and certificates</li></ul>
+              <a href="#contact">Ask about the portal</a>
+            </div>
+          </article>
+          <article class="service-card" data-category="incorporation">
+            <figure class="service-image">
+              <img src="assets/incorporation.jpg" alt="Representative stock photo of two professionals reviewing paperwork." loading="lazy">
+              <figcaption>Representative photo · <a href="https://unsplash.com/photos/two-people-reviewing-documents-at-a-table-MhqUBTxQ3Hw" target="_blank" rel="noreferrer">Olena Kholina / Unsplash</a></figcaption>
+            </figure>
+            <div class="service-body">
+              <p class="service-label">Company formation</p>
+              <h3>Incorporation Services</h3>
+              <p>Formation support for Sdn Bhd companies, limited liability partnerships, sole proprietorships and partnerships.</p>
+              <ul><li>Sdn Bhd</li><li>LLP / PLT and enterprise</li></ul>
+              <a href="#estimator">View setup estimates</a>
+            </div>
+          </article>
+          <article class="service-card" data-category="licensing-closure">
+            <figure class="service-image">
+              <img src="assets/local-licence.jpg" alt="Representative stock photo of people reviewing and signing paperwork." loading="lazy">
+              <figcaption>Representative photo · <a href="https://unsplash.com/photos/woman-signing-on-white-printer-paper-beside-woman-about-to-touch-the-documents-HJckKnwCXxQ" target="_blank" rel="noreferrer">Gabrielle Henderson / Unsplash</a></figcaption>
+            </figure>
+            <div class="service-body">
+              <p class="service-label">Local requirements</p>
+              <h3>Local Trading Licence</h3>
+              <p>Assistance with local trading-licence applications for business operations in Kota Kinabalu.</p>
+              <ul><li>DBKK licence submissions</li><li>Premise-inspection guidance</li></ul>
+              <a href="#contact">Ask about licensing</a>
+            </div>
+          </article>
+          <article class="service-card" data-category="compliance">
+            <figure class="service-image">
+              <img src="assets/statutory-records.jpg" alt="Representative stock photo of paper documents and file folders." loading="lazy">
+              <figcaption>Representative photo · <a href="https://unsplash.com/photos/stacks-of-paper-documents-and-file-folders-snNHKZ-mGfE" target="_blank" rel="noreferrer">Wesley Tingey / Unsplash</a></figcaption>
+            </figure>
+            <div class="service-body">
+              <p class="service-label">Company records</p>
+              <h3>Statutory Records Maintenance</h3>
+              <p>Maintenance and updating of statutory registers and company records under the Companies Act 2016.</p>
+              <ul><li>Registers and minute books</li><li>Director and share changes</li></ul>
+              <a href="#contact">Ask about records</a>
+            </div>
+          </article>
+          <article class="service-card" data-category="compliance">
+            <figure class="service-image">
+              <img src="assets/company-searches.jpg" alt="Representative stock photo of a professional reading a document." loading="lazy">
+              <figcaption>Representative photo · <a href="https://unsplash.com/photos/a-woman-sitting-at-a-table-reading-a-paper-ecHGTPfjNfA" target="_blank" rel="noreferrer">Anastassia Anufrieva / Unsplash</a></figcaption>
+            </figure>
+            <div class="service-body">
+              <p class="service-label">Due diligence</p>
+              <h3>Company &amp; Bankruptcy Searches</h3>
+              <p>SSM company-profile and official bankruptcy searches for business due diligence.</p>
+              <ul><li>Company profile searches</li><li>Bankruptcy searches</li></ul>
+              <a href="#contact">Order a search</a>
+            </div>
+          </article>
+          <article class="service-card" data-category="incorporation">
+            <figure class="service-image">
+              <img src="assets/registered-address.jpg" alt="Representative stock photo of colleagues discussing work in an office." loading="lazy">
+              <figcaption>Representative photo · <a href="https://unsplash.com/photos/two-colleagues-discussing-work-in-a-modern-office-E3TJIo5E9Gg" target="_blank" rel="noreferrer">Vitaly Gariev / Unsplash</a></figcaption>
+            </figure>
+            <div class="service-body">
+              <p class="service-label">Kota Kinabalu</p>
+              <h3>Registered Address Provision</h3>
+              <p>Provision of an official registered-office address at Inanam Capital for company correspondence.</p>
+              <ul><li>Kota Kinabalu location</li><li>Official company correspondence</li></ul>
+              <a href="#contact">Ask about the address</a>
+            </div>
+          </article>
+          <article class="service-card" data-category="compliance">
+            <figure class="service-image">
+              <img src="assets/mbrs-submissions.jpg" alt="Representative stock photo of paper documents organized with marker tabs." loading="lazy">
+              <figcaption>Representative photo · <a href="https://unsplash.com/photos/stack-of-papers-marked-with-colorful-sticky-tabs-81ikZZG7_AA" target="_blank" rel="noreferrer">Tanja Tepavac / Unsplash</a></figcaption>
+            </figure>
+            <div class="service-body">
+              <p class="service-label">Annual filings</p>
+              <h3>MBRS Submissions</h3>
+              <p>Preparation and digital filing of annual returns and financial statements through the Malaysian Business Reporting System.</p>
+              <ul><li>Annual returns</li><li>Financial statements</li></ul>
+              <a href="#contact">Ask about MBRS filings</a>
+            </div>
+          </article>
+          <article class="service-card service-wide" data-category="licensing-closure">
+            <figure class="service-image">
+              <img src="assets/closure.jpg" alt="Representative stock photo of colleagues signing a business contract." loading="lazy">
+              <figcaption>Representative photo · <a href="https://unsplash.com/photos/business-people-signing-a-contract-at-a-table-iPheGw7_UaI" target="_blank" rel="noreferrer">Vitaly Gariev / Unsplash</a></figcaption>
+            </figure>
+            <div class="service-body">
+              <p class="service-label">Company closure</p>
+              <h3>Closure &amp; Winding Up Services</h3>
+              <p>Assistance with company deregistration by striking-off and the winding up of a business, based on the applicable process.</p>
+              <ul><li>SSM striking-off applications</li><li>LLP dissolution assistance</li></ul>
+              <a href="#contact">Ask about closure services</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="advantage-section" id="why-us" aria-labelledby="advantage-title">
+        <div class="section-wrap">
+          <div class="section-heading centered-heading">
+            <h2 id="advantage-title">Why partner with us?</h2>
+            <p>Local knowledge and organized company records for the practical work of running a business in Sabah.</p>
+          </div>
+          <div class="advantage-grid">
+            <article><h3>Compliance tracking</h3><p>We track statutory filing dates and support annual returns and other company-secretarial requirements.</p></article>
+            <article><h3>Sabah regulatory knowledge</h3><p>Get local guidance on DBKK municipal requirements and trading-licence applications in Kota Kinabalu.</p></article>
+            <article><h3>Digital document access</h3><p>Keep key certificates, resolutions and filing records available through a cloud secretarial portal.</p></article>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq-section section-wrap" id="faq" aria-labelledby="faq-title">
+        <div class="section-heading centered-heading">
+          <h2 id="faq-title">Frequently asked questions</h2>
+          <p>Answers about company incorporation and secretarial compliance in Sabah.</p>
+        </div>
+        <div class="faq-list">
+          <details>
+            <summary>What is required to incorporate a Sdn Bhd company in Sabah?</summary>
+            <p>A Sdn Bhd requires at least one director and one shareholder (who may be the same person), a valid Malaysian residential address, IC or passport copies, and a proposed company name. iBorneo can handle the SSM name search and incorporation filings.</p>
+          </details>
+          <details>
+            <summary>Do I need a local trading licence (DBKK) in Kota Kinabalu?</summary>
+            <p>Businesses operating physical premises or commercial activities in Kota Kinabalu may need a DBKK trading licence. iBorneo can assist with the application process and local requirements.</p>
+          </details>
+          <details>
+            <summary>How does the digital secretarial service work?</summary>
+            <p>Statutory documents, board resolutions and SSM submission records can be stored in a secure cloud portal for clients to view, download or share.</p>
+          </details>
+          <details>
+            <summary>Can West Malaysian or foreign business owners register a company in Sabah?</summary>
+            <p>West Malaysian and foreign owners may be able to register a company in Sabah, subject to the applicable requirements for the business and sector. iBorneo can discuss local registered-address and secretarial needs.</p>
+          </details>
+        </div>
+      </section>
+
+      <section class="contact-section section-wrap" id="contact" aria-labelledby="contact-title">
+        <div class="contact-details">
+          <h2 id="contact-title">Start your incorporation</h2>
+          <p>Send the office your requirements or visit the Inanam Capital office in Kota Kinabalu.</p>
+          <div class="contact-item">
+            <strong>Registered office address</strong>
+            <address>iBorneo Corporate Services PLT<br>Unit 203, DBKK-A-2-2, Lot 22, 2nd Floor, Block A,<br>Lorong Inanam Kapital 2, Inanam Capital,<br>Jalan Kian Yap, Kolombong,<br>88450 Kota Kinabalu, Sabah, Malaysia</address>
+          </div>
+          <div class="contact-item">
+            <strong>Email</strong>
+            <a href="mailto:info@iborneo.net">info@iborneo.net</a>
+          </div>
+          <div class="contact-item">
+            <strong>Official website</strong>
+            <a href="https://www.iborneo.net">www.iborneo.net</a>
+          </div>
+          <p class="office-note">Located in the Inanam Capital commercial area, accessible from Kolombong and Kota Kinabalu city.</p>
+        </div>
+        <div class="contact-form-panel">
+          <h2>Send us an inquiry</h2>
+          <p>The form opens a prefilled email to the iBorneo office for you to review and send.</p>
+          <form id="inquiry-form">
+            <div class="form-grid">
+              <label>Full name *
+                <input type="text" name="name" autocomplete="name" placeholder="e.g. Tan Wei Ming" required>
+              </label>
+              <label>Email address *
+                <input type="email" name="email" autocomplete="email" placeholder="e.g. name@company.com" required>
+              </label>
+              <label>Contact phone number
+                <input type="tel" name="phone" autocomplete="tel" placeholder="e.g. +60 12-345 6789">
+              </label>
+              <label>Service required
+                <select name="service">
+                  <option value="General enquiry">General enquiry</option>
+                  <option value="New company incorporation">New company incorporation</option>
+                  <option value="LLP / partnership formation">LLP / partnership formation</option>
+                  <option value="Company secretary appointment">Company secretary appointment</option>
+                  <option value="Local trading licence">Local trading licence</option>
+                  <option value="MBRS submissions">MBRS submissions</option>
+                  <option value="Company closure and striking-off">Company closure and striking-off</option>
+                </select>
+              </label>
+              <label class="form-message">Your message / requirements *
+                <textarea name="message" rows="5" placeholder="Tell us about your proposed business activity or current secretarial needs..." required></textarea>
+              </label>
+            </div>
+            <p class="form-error" id="form-error" role="status" hidden></p>
+            <button class="button button-primary form-submit" type="submit">Prepare email to iBorneo</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-main">
+        <div class="footer-brand">
+          <a class="footer-wordmark" href="#top">iBorneo</a>
+          <p>iBorneo Corporate Services PLT supports company setup, secretarial compliance and business licensing in Kota Kinabalu, Sabah.</p>
+        </div>
+        <div>
+          <h2>Quick links</h2>
+          <a href="#about">About iBorneo</a>
+          <a href="#services">Our services</a>
+          <a href="#estimator">Setup estimator</a>
+          <a href="#why-us">Why iBorneo</a>
+          <a href="#faq">Frequently asked questions</a>
+        </div>
+        <div>
+          <h2>Office location</h2>
+          <address>Unit 203, DBKK-A-2-2, Lot 22, 2nd Floor, Block A,<br>Lorong Inanam Kapital 2, Inanam Capital,<br>Jalan Kian Yap, Kolombong,<br>88450 Kota Kinabalu, Sabah, Malaysia</address>
+          <a href="mailto:info@iborneo.net">info@iborneo.net</a>
+          <span>LLP Registration No. 202604002575 (LLP0047820-LGN)</span>
+        </div>
+      </div>
+      <div class="footer-bottom"><span>© 2026 iBorneo Corporate Services PLT. All rights reserved.</span><a href="#top">Back to top ↑</a></div>
+    </footer>
+  </body>
+</html>
